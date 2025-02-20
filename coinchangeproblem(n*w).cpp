@@ -12,7 +12,7 @@ int main()
     {
        long long n,k;
        cin>>n>>k;
-       long long arr[n+10];
+       vector<int>arr(n+1);
        for(int i=1;i<=n;i++)
        {
            cin>>arr[i];
